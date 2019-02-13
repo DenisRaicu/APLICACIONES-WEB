@@ -1,0 +1,13 @@
+{
+  "name": "Ejercicio1",
+  "description": "Examen de febrero de aplicaciones web - Ejercicio 1",
+  "version": "1.0.0",
+  "keywords": [
+    "examen",
+    "aplicaciones web"
+  ],
+  "author": "manuel",
+  "contributors": [],
+  "private": true,
+  "license": "ISC",
+}
