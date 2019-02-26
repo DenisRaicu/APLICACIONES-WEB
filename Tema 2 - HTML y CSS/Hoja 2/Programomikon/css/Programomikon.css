@@ -1,1 +1,93 @@
 /* Reglas CSS para versión en pantalla */
+@import'https://fonts.googleapis.com/css?family=Open+Sans';
+
+body {
+    background-color: rgb(35, 35, 36);
+}
+
+header {
+    background-image: url("../img/fondo_logo.png");
+    background-repeat: repeat;
+    display:flex;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-family: "Open Sans";
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #2c612c;
+}
+
+#select {
+    color: white;
+    font-style: solid;
+    font-family: "Open Sans";
+    margin: 0px 10px;
+}
+
+#select::after{
+    content: "\025ba";
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+nav li {
+    border: solid;
+    background: linear-gradient(black, green);
+    padding: 10px 20px 10px 20px; 
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-style: solid;
+    font-family: "Open Sans";
+}
+
+nav li:hover {
+    background: rgb(81, 201, 25);
+}
+
+.medio {
+    border-left: none;
+    border-right: none;
+}
+
+.cotenedor, aside {
+    font-family: "Open Sans";
+    color: black;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    background-image: url("../img/fondo_articulo.png");
+}
+
+.cotenedor {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    float: right;
+}
+
+.cotenedor > h1, aside > h2 {
+    color: rgb(26, 126, 26);
+}
+
+time {
+    font-style: italic;
+}
